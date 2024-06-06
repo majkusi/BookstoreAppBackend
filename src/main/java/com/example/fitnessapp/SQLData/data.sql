@@ -1,0 +1,22 @@
+INSERT INTO book_model (title, author, description, publisher, pages, genre)
+VALUES
+    ('The Lord of the Rings', 'J.R.R. Tolkien', 'Epic fantasy novel', 'Allen & Unwin', 1200, 'FANTASY'),
+    ('To Kill a Mockingbird', 'Harper Lee', 'Novel about racism and innocence', 'J. B. Lippincott & Co.', 281, 'BASED_ON_TRUE_STORY'),
+    ('1984', 'George Orwell', 'Dystopian novel', 'Secker & Warburg', 328, 'THRILLER'),
+    ('The Catcher in the Rye', 'J.D. Salinger', 'Story of teenage angst', 'Little, Brown and Company', 277, 'SLICE_OF_LIFE'),
+    ('The Great Gatsby', 'F. Scott Fitzgerald', 'Tragic love story', 'Charles Scribners Sons', 180, 'TRAGEDY'),
+    ('Moby Dick', 'Herman Melville', 'Epic sea story', 'Richard Bentley', 635, 'ADVENTURE'),
+    ('War and Peace', 'Leo Tolstoy', 'Historical novel', 'The Russian Messenger', 1225, 'HISTORICAL'),
+    ('Pride and Prejudice', 'Jane Austen', 'Romantic novel', 'T. Egerton', 432, 'ROMANCE'),
+    ('Ulysses', 'James Joyce', 'Modernist novel', 'Sylvia Beach', 730, 'MODERNIST'),
+    ('The Odyssey', 'Homer', 'Epic poem', 'Ancient Greece', 500, 'EPIC'),
+    ('Crime and Punishment', 'Fyodor Dostoevsky', 'Psychological thriller', 'The Russian Messenger', 671, 'THRILLER'),
+    ('The Shining', 'Stephen King', 'Horror novel', 'Doubleday', 447, 'HORROR'),
+    ('The Da Vinci Code', 'Dan Brown', 'Mystery thriller', 'Doubleday', 689, 'THRILLER'),
+    ('The Hobbit', 'J.R.R. Tolkien', 'Fantasy novel', 'George Allen & Unwin', 310, 'FANTASY'),
+    ('Fahrenheit 451', 'Ray Bradbury', 'Dystopian novel', 'Ballantine Books', 158, 'DYSTOPIAN'),
+    ('The Chronicles of Narnia', 'C.S. Lewis', 'Fantasy series', 'Geoffrey Bles', 768, 'FANTASY'),
+    ('The Trial', 'Franz Kafka', 'Absurdist fiction', 'Verlag Die Schmiede', 216, 'ABSURDIST'),
+    ('Catch-22', 'Joseph Heller', 'War novel', 'Simon & Schuster', 453, 'WAR'),
+    ('The Stranger', 'Albert Camus', 'Existential novel', 'Gallimard', 123, 'EXISTENTIAL'),
+    ('Brave New World', 'Aldous Huxley', 'Dystopian novel', 'Chatto & Windus', 311, 'DYSTOPIAN');
