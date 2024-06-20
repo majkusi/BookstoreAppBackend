@@ -1,7 +1,7 @@
 package com.example.fitnessapp.controller;
 
 import com.example.fitnessapp.modelDto.UserDto;
-import com.example.fitnessapp.service.impl.UserServiceImpl;
+import com.example.fitnessapp.user.UserServiceImpl;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

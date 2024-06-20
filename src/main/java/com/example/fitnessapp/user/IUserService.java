@@ -1,4 +1,4 @@
-package com.example.fitnessapp.service;
+package com.example.fitnessapp.user;
 
 import com.example.fitnessapp.modelDto.UserDto;
 import org.springframework.stereotype.Service;
