@@ -6,6 +6,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
+import java.util.Optional;
 
 @Service
 public class UserServiceImpl {
@@ -36,5 +37,8 @@ public class UserServiceImpl {
         return userRepository.save(newUser);
     }
 
+    public Optional<User> getUserByEmail(String email) throws IOException {
+        return userRepository.findByEmail(email);
+    }
 
 }

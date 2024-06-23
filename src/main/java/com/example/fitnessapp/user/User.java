@@ -26,7 +26,7 @@ public class User implements UserDetails {
     private String email;
     @Enumerated(EnumType.STRING)
     private Role role;
-    private String nickname;
+    private String username;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

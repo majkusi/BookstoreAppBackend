@@ -28,7 +28,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
      * @throws ServletException
      * @throws IOException
      */
-    public JwtService jwtService;
+    public JwtService jwtService = new JwtService();
 
     @Override
     protected void doFilterInternal(
